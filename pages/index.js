@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <div
-        className='min-h-screen bg-no-repeat bg-cover sm:bg-bottom '
+        className='min-h-screen bg-no-repeat bg-cover sm:bg-bottom overflow-hidden'
         style={{ backgroundImage: `url(../background/1.svg)` }}
       >
         <div className='flex justify-between text-light  text-2xl p-5 sm:px-10'>
