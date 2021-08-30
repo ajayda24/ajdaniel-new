@@ -5,5 +5,12 @@ html{
 }
 body{
   background-color: #002233;
+}
 
+.text-gradient{
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-600;
+}
+.text-light{
+  color: #98b6f6;
+  text-shadow: 0.1em 0.1em 0 black;
 }
