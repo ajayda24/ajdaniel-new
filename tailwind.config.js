@@ -8,5 +8,15 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require('daisyui')],
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          primary: '#98b6f6',
+          'primary-focus': '#7ca2f4',
+        },
+      },
+    ],
+  },
 }
