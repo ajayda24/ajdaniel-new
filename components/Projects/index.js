@@ -17,16 +17,26 @@ export default function Projects() {
         title='Class Room Management'
         image='classathome'
         description='Manage your time, make studies more advanced. Easy to Access, Easy to Manage your teachers and students.'
-        github=''
-        view=''
+        github='https://github.com/ajayda24/nodejs-master-completed'
+        view='https://classathome.gq/'
+        features={['Assignments', 'Chat', 'Video Call', 'Paid Events']}
+        technologies={['NodeJS', 'ExpressJS', 'MongoDB', 'SocketIO']}
         imageLeft
       />
       <ProjectItem
         title='AJ Movies Info'
         image='ajmoviesinfo1'
-        description='Get latest movies and series details. Watch official trailer. Developed using TMDB API.'
-        github=''
-        view=''
+        description='Get latest movies and series details. Watch official trailer. Filter using date and genre.'
+        github='https://github.com/ajayda24/movieinfo'
+        view='https://aj-moviesinfo.vercel.app/'
+        features={[
+          'Latest Movies',
+          'Latest Series',
+          'Movies Details',
+          'Official Trailer',
+          'Filter',
+        ]}
+        technologies={['NextJS', 'ReactJS', 'TMDB API', 'CSS']}
       />
     </div>
   )
