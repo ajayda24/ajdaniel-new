@@ -2,9 +2,11 @@
 
 html{
   font-family: 'Comic Neue', cursive;
+  scroll-behavior: smooth;
 }
 body{
   background-color: #002233;
+   
 }
 
 .text-gradient{
@@ -13,4 +15,14 @@ body{
 .text-light{
   color: #98b6f6;
   text-shadow: 0.1em 0.1em 0 black;
+}
+.bg-light{
+  background-color: #98b6f6;
+}
+.h_mobile-100{
+  min-height: calc(var(--vh, 1vh) * 100);
+}
+.dropdown-center .dropdown-content{
+  transform: translateX(-50%);
+  left: 50%;
 }
