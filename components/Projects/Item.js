@@ -26,10 +26,7 @@ export default function ProjectItem(props) {
         ) : (
           <h1 className='text-light text-xl sm:text-3xl '>{props.title}</h1>
         )}
-        <hr
-          className=' border-double border-b-4 border-[#98b6f6] border-opacity-50 '
-          style={{ width: '40%', margin: 'auto' }}
-        />
+        <hr className='hr'/>
         <div className='max-w-md flex flex-col gap-4'>
           <h2 className='text-light text-md sm:text-lg'>{props.description}</h2>
 

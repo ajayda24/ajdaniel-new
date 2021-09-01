@@ -28,3 +28,8 @@ body{
   transform: translateX(-50%);
   left: 50%;
 }
+.hr{
+  @apply border-double border-b-4 border-[#98b6f6] border-opacity-50;
+  width: 40%;
+  margin: auto;
+}
