@@ -24,13 +24,13 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>AJ Daniel</title>
+        <title>Ajay Daniel Trevor</title>
         <link rel='manifest' href='/manifest.json' />
         {/* <link rel='manifest' href='/manifest.json' /> */}
-        <meta name='application-name' content='AJ Daniel' />
+        <meta name='application-name' content='Ajay Daniel Trevor' />
         <meta name='apple-mobile-web-app-capable' content='yes' />
         <meta name='apple-mobile-web-app-status-bar-style' content='default' />
-        <meta name='apple-mobile-web-app-title' content='AJ Daniel' />
+        <meta name='apple-mobile-web-app-title' content='Ajay Daniel Trevor' />
         <meta
           name='description'
           content='I am a MERN Stack Developer. I have done so many projects with amazing web technologies such as Node.js, Next.js, React.js, MongoDB etc.'
@@ -54,18 +54,18 @@ function MyApp({ Component, pageProps }) {
 
         <meta name='twitter:card' content='summary' />
         <meta name='twitter:url' content='https://ajdaniel.vercel.app' />
-        <meta name='twitter:title' content='AJ Daniel' />
+        <meta name='twitter:title' content='Ajay Daniel Trevor' />
         <meta
           name='twitter:description'
           content='I am a MERN Stack Developer. I have done so many projects with amazing web technologies such as Node.js, Next.js, React.js, MongoDB etc.'
         />
         <meta
           name='twitter:image'
-          content='https://ajdaniel.vercel.app/logo.png'
+          content='https://ajdaniel.vercel.app/bg-landscape.png'
         />
         <meta name='twitter:creator' content='@ajayda24' />
         <meta property='og:type' content='website' />
-        <meta property='og:title' content='AJ Daniel' />
+        <meta property='og:title' content='Ajay Daniel Trevor' />
         <meta
           property='og:description'
           content='I am a MERN Stack Developer. I have done so many projects with amazing web technologies such as Node.js, Next.js, React.js, MongoDB etc.'
@@ -74,7 +74,7 @@ function MyApp({ Component, pageProps }) {
         <meta property='og:url' content='https://ajdaniel.vercel.app' />
         <meta
           property='og:image'
-          content='https://ajdaniel.vercel.app/logo.png'
+          content='https://ajdaniel.vercel.app/bg-landscape.png'
         />
       </Head>
       <Script
