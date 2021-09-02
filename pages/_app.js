@@ -45,16 +45,16 @@ function MyApp({ Component, pageProps }) {
         <meta name='msapplication-tap-highlight' content='no' />
         <meta name='theme-color' content='#000000' />
 
-        <link rel='apple-touch-icon' href='/bg-landscape.png' />
+        <link rel='apple-touch-icon' href='/logo.png' />
 
         <link
           rel='icon'
           type='image/png'
           sizes='32x32'
-          href='/bg-landscape.png'
+          href='/logo.png'
         />
 
-        <link rel='mask-icon' href='/bg-landscape.png' color='#5bbad5' />
+        <link rel='mask-icon' href='/logo.png' color='#5bbad5' />
         <link rel='shortcut icon' href='/favicon.ico' />
 
         <meta name='twitter:card' content='summary' />
@@ -66,7 +66,7 @@ function MyApp({ Component, pageProps }) {
         />
         <meta
           name='twitter:image'
-          content='https://ajdaniel.vercel.app/bg-landscape.png'
+          content='https://ajdaniel.vercel.app/logo.png'
         />
         <meta name='twitter:creator' content='@ajayda24' />
         <meta property='og:type' content='website' />
@@ -79,7 +79,7 @@ function MyApp({ Component, pageProps }) {
         <meta property='og:url' content='https://ajdaniel.vercel.app' />
         <meta
           property='og:image'
-          content='https://ajdaniel.vercel.app/bg-landscape.png'
+          content='https://ajdaniel.vercel.app/logo.png'
         />
       </Head>
       <Script
