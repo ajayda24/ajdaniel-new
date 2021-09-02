@@ -12,7 +12,9 @@ export default function Home() {
           <p>Contact</p>
         </div>
       </div>
-      <h1 className='text-center font-black text-4xl p-2 sm:text-7xl mt-5 text-light animate__animated animate__backInDown'>
+      <h1
+        className='text-center font-black text-4xl p-2 sm:text-7xl mt-5 text-light animate__animated animate__backInDown'
+      >
         Welcome to AJ's World
       </h1>
       <div className='grid grid-cols-3 grid-rows-2 sm:grid-rows-none sm:grid-cols-5 mx-auto max-w-4xl  items-center py-10 sm:py-12 px-2'>
@@ -27,7 +29,10 @@ export default function Home() {
           <h1 className='text-light text-lg sm:text-3xl'>
             MERN Stack Developer
           </h1>
-          <a href='#projects' className='btn btn-outline btn-primary m-4 p-2 min-h-16 ring-4 ring-indigo-500 sm:text-lg '>
+          <a
+            href='#projects'
+            className='btn btn-outline btn-primary m-4 p-2 min-h-16 ring-4 ring-indigo-500 sm:text-lg '
+          >
             Explore my Projects
           </a>
         </div>

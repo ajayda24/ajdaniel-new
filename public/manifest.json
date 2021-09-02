@@ -1,0 +1,24 @@
+{
+  "short_name": "AJ Daniel",
+  "name": "Ajay Daniel Trevor Portfolio",
+  "description": "I am a MERN Stack Developer. I have done so many projects with amazing web technologies such as Node.js, Next.js, React.js, MongoDB etc.",
+  "icons": [
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#000000",
+  "orientation": "portrait"
+}
