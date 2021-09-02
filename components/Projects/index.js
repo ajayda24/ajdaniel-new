@@ -5,7 +5,6 @@ export default function Projects() {
     <div
       id='projects'
       className='h_mobile-100 sm:min-h-screen bg-no-repeat bg-cover sm:bg-bottom overflow-hidden'
-      // style={{ backgroundImage: `url(../background/2.svg)` }}
     >
       <h1
         className='text-center font-black text-4xl p-2 sm:text-7xl mt-5 text-light'

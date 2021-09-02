@@ -45,11 +45,16 @@ function MyApp({ Component, pageProps }) {
         <meta name='msapplication-tap-highlight' content='no' />
         <meta name='theme-color' content='#000000' />
 
-        <link rel='apple-touch-icon' href='/logo.png' />
+        <link rel='apple-touch-icon' href='/bg-landscape.png' />
 
-        <link rel='icon' type='image/png' sizes='32x32' href='/logo.png' />
+        <link
+          rel='icon'
+          type='image/png'
+          sizes='32x32'
+          href='/bg-landscape.png'
+        />
 
-        <link rel='mask-icon' href='/logo.png' color='#5bbad5' />
+        <link rel='mask-icon' href='/bg-landscape.png' color='#5bbad5' />
         <link rel='shortcut icon' href='/favicon.ico' />
 
         <meta name='twitter:card' content='summary' />
@@ -70,7 +75,7 @@ function MyApp({ Component, pageProps }) {
           property='og:description'
           content='I am a MERN Stack Developer. I have done so many projects with amazing web technologies such as Node.js, Next.js, React.js, MongoDB etc.'
         />
-        <meta property='og:site_name' content='AJ Daniel' />
+        <meta property='og:site_name' content='Ajay Daniel Trevor' />
         <meta property='og:url' content='https://ajdaniel.vercel.app' />
         <meta
           property='og:image'
