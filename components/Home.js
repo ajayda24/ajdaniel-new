@@ -12,9 +12,7 @@ export default function Home() {
           <p>Contact</p>
         </div>
       </div>
-      <h1
-        className='text-center font-black text-4xl p-2 sm:text-7xl mt-5 text-light animate__animated animate__backInDown'
-      >
+      <h1 className='text-center font-black text-4xl p-2 sm:text-7xl mt-5 text-light animate__animated animate__backInDown'>
         Welcome to AJ's World
       </h1>
       <div className='grid grid-cols-3 grid-rows-2 sm:grid-rows-none sm:grid-cols-5 mx-auto max-w-4xl  items-center py-10 sm:py-12 px-2'>

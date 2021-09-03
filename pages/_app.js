@@ -1,19 +1,26 @@
 import 'tailwindcss/tailwind.css'
 import '../styles/global.css'
-import 'animate.css'
 import Head from 'next/head'
 import Script from 'next/script'
 
-import AOS from 'aos'
-import 'aos/dist/aos.css'
 import { useEffect } from 'react'
-
-import 'boxicons/css/boxicons.min.css'
-import 'devicon/devicon.min.css'
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    AOS.init()
+    AOS.init({
+      disable: ()=>{
+        if (location.hash == '#skills') {
+          return true
+        } else if(location.hash == '#projects'){
+          return true
+        } else {
+          return false
+        }
+      },
+      debounceDelay: 0,
+      throttleDelay: 0,
+    })
+    
   }, [])
   // window.addEventListener('resize', () => {
   //   document.documentElement.style.setProperty(
@@ -24,9 +31,13 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <script src='../cdn/aos/aos.js'></script>
+        <link rel="stylesheet" href="../cdn/aos/aos-original.css" />
+        <link rel="stylesheet" href="../cdn/animate/animate.css" />
+        <link rel="stylesheet" href="../cdn/boxicons/boxicons.css" />
+        <link rel="stylesheet" href="../cdn/devicon/devicon.css" />
         <title>Ajay Daniel Trevor</title>
         <link rel='manifest' href='/manifest.json' />
-        {/* <link rel='manifest' href='/manifest.json' /> */}
         <meta name='application-name' content='Ajay Daniel Trevor' />
         <meta name='apple-mobile-web-app-capable' content='yes' />
         <meta name='apple-mobile-web-app-status-bar-style' content='default' />
@@ -47,12 +58,7 @@ function MyApp({ Component, pageProps }) {
 
         <link rel='apple-touch-icon' href='/logo.png' />
 
-        <link
-          rel='icon'
-          type='image/png'
-          sizes='32x32'
-          href='/logo.png'
-        />
+        <link rel='icon' type='image/png' sizes='32x32' href='/logo.png' />
 
         <link rel='mask-icon' href='/logo.png' color='#5bbad5' />
         <link rel='shortcut icon' href='/favicon.ico' />
