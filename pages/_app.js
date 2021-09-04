@@ -44,20 +44,16 @@ function MyApp({ Component, pageProps }) {
         />
         <meta name='format-detection' content='telephone=no' />
         <meta name='mobile-web-app-capable' content='yes' />
-        <meta
-          name='msapplication-config'
-          content='/static/icons/browserconfig.xml'
-        />
         <meta name='msapplication-TileColor' content='#2B5797' />
         <meta name='msapplication-tap-highlight' content='no' />
         <meta name='theme-color' content='#000000' />
 
-        <link rel='apple-touch-icon' href='/logo.png' />
+        <link rel='apple-touch-icon' href='/logo1.png' />
 
-        <link rel='icon' type='image/png' sizes='32x32' href='/logo.png' />
+        <link rel='icon' type='image/png' sizes='32x32' href='/logo1.png' />
 
-        <link rel='mask-icon' href='/logo.png' color='#5bbad5' />
-        <link rel='shortcut icon' href='/favicon.ico' />
+        <link rel='mask-icon' href='/logo1.png' color='#5bbad5' />
+        <link rel='shortcut icon' href='/favicon1.ico' />
 
         <meta name='twitter:card' content='summary' />
         <meta name='twitter:url' content='https://ajdaniel.vercel.app' />
@@ -68,7 +64,7 @@ function MyApp({ Component, pageProps }) {
         />
         <meta
           name='twitter:image'
-          content='https://ajdaniel.vercel.app/logo.png'
+          content='https://ajdaniel.vercel.app/logo1.png'
         />
         <meta name='twitter:creator' content='@ajayda24' />
         <meta property='og:type' content='website' />
@@ -81,7 +77,7 @@ function MyApp({ Component, pageProps }) {
         <meta property='og:url' content='https://ajdaniel.vercel.app' />
         <meta
           property='og:image'
-          content='https://ajdaniel.vercel.app/logo.png'
+          content='https://ajdaniel.vercel.app/logo1.png'
         />
       </Head>
       <Script
