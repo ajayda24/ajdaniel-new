@@ -30,6 +30,7 @@ export default async function postSubmitContact(req, res) {
         })
       }
     }catch(err){
+      console.log(err);
       res
         .status(500)
         .json({ status: 'Something went wrong !', error: 'alert-error' })

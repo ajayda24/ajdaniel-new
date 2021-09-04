@@ -6,9 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "boxicons": "^2.0.9",
     "daisyui": "^1.14.0",
-    "devicon": "^2.13.0",
     "next": "latest",
     "next-pwa": "^5.3.1",
     "nodemailer": "^6.6.3",

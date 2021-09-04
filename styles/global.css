@@ -3,9 +3,11 @@
 html {
   font-family: 'Comic Neue', cursive;
   scroll-behavior: smooth;
+  
 }
 body {
-  background-color: rgb(0, 28, 48);
+  background-color: #001c30;
+
 }
 
 .text-gradient {
@@ -38,3 +40,20 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+  /* width */
+::-webkit-scrollbar {
+  width: 3px;
+  background: transparent;
+}
+
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #98b6f6; 
+}
+
+::-webkit-scrollbar-thumb:hover::-webkit-scrollbar {
+  width: 10px;
+}
+

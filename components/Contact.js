@@ -119,7 +119,7 @@ export default function Contact() {
         <center>
           <button
             type='submit'
-            className='btn btn-wide btn-outline btn-primary mx-auto'
+            className='btn md:btn-wide btn-primary mx-auto'
           >
             {submitButtonText}
           </button>
