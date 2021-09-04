@@ -1,8 +1,6 @@
 export default function ProjectItem(props) {
   return (
-    <div
-      className='flex flex-col md:flex-row  mx-auto  justify-evenly  items-center py-10 sm:py-12 px-2 gap-5'
-    >
+    <div className='flex flex-col md:flex-row  mx-auto  justify-evenly  items-center py-10 sm:py-12 px-2 gap-5'>
       <div
         className={`justify-self-center ring-4 ring-[#98b6f6] ring-offset-2 p-1 order-last ${
           props.imageLeft ? 'md:order-first' : 'md:order-last'
@@ -26,7 +24,7 @@ export default function ProjectItem(props) {
         ) : (
           <h1 className='text-light text-xl sm:text-3xl '>{props.title}</h1>
         )}
-        <hr className='hr'/>
+        <hr className='hr' />
         <div className='max-w-md flex flex-col gap-4'>
           <h2 className='text-light text-md sm:text-lg'>{props.description}</h2>
 
@@ -58,6 +56,7 @@ export default function ProjectItem(props) {
             target='_blank'
             href={props.github}
             className='btn btn-outline btn-primary m-4 p-2 px-6  ring-4 ring-indigo-500 sm:text-lg gap-2 order-first'
+            rel='noopener noreferrer'
           >
             <p>Github</p>
           </a>
@@ -66,6 +65,7 @@ export default function ProjectItem(props) {
             target='_blank'
             href={props.view}
             className='btn btn-outline btn-primary m-4 p-2 px-6  ring-4 ring-indigo-500 sm:text-lg gap-2 order-2 '
+            rel='noopener noreferrer'
           >
             <p>Open</p>
           </a>

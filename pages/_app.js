@@ -6,12 +6,13 @@ import Script from 'next/script'
 import { useEffect } from 'react'
 
 function MyApp({ Component, pageProps }) {
+  
   useEffect(() => {
     AOS.init({
-      disable: ()=>{
+      disable: () => {
         if (location.hash == '#skills') {
           return true
-        } else if(location.hash == '#projects'){
+        } else if (location.hash == '#projects') {
           return true
         } else {
           return false
@@ -20,22 +21,17 @@ function MyApp({ Component, pageProps }) {
       debounceDelay: 0,
       throttleDelay: 0,
     })
-    
+    window.addEventListener('load', AOS.refresh)
   }, [])
-  // window.addEventListener('resize', () => {
-  //   document.documentElement.style.setProperty(
-  //     '--vh',
-  //     window.innerHeight * 0.01 + 'px'
-  //   )
-  // })
+  
   return (
     <>
       <Head>
         <script src='../cdn/aos/aos.js'></script>
-        <link rel="stylesheet" href="../cdn/aos/aos-original.css" />
-        <link rel="stylesheet" href="../cdn/animate/animate.css" />
-        <link rel="stylesheet" href="../cdn/boxicons/boxicons.css" />
-        <link rel="stylesheet" href="../cdn/devicon/devicon.css" />
+        <link rel='stylesheet' href='../cdn/aos/aos-original.css' />
+        <link rel='stylesheet' href='../cdn/animate/animate.css' />
+        <link rel='stylesheet' href='../cdn/boxicons/boxicons.css' />
+        <link rel='stylesheet' href='../cdn/devicon/devicon.css' />
         <title>Ajay Daniel Trevor</title>
         <link rel='manifest' href='/manifest.json' />
         <meta name='application-name' content='Ajay Daniel Trevor' />
@@ -92,6 +88,9 @@ function MyApp({ Component, pageProps }) {
         dangerouslySetInnerHTML={{
           __html: `
                 document.documentElement.style.setProperty('--vh', window.innerHeight * 0.01+'px');
+                document.documentElement.setAttribute('data-theme','my-theme');
+                window.addEventListener('resize', () => {
+                document.documentElement.style.setProperty('--vh',window.innerHeight * 0.01 + 'px')});
           `,
         }}
       ></Script>

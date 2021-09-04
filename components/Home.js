@@ -1,4 +1,4 @@
-
+import profileLink from '../profileLink'
 export default function Home() {
   return (
     <div
@@ -6,10 +6,16 @@ export default function Home() {
       style={{ backgroundImage: `url(../background/1.svg)` }}
     >
       <div className='flex justify-between text-light  text-2xl p-5 sm:px-10'>
-        <div>Aj</div>
+        <div>
+          <a href='#'>Aj</a>
+        </div>
         <div className='flex gap-7'>
-          <p>About</p>
-          <p>Contact</p>
+          <p>
+            <a href='#projects'>Projects</a>
+          </p>
+          <p>
+            <a href='#contact'>Contact</a>
+          </p>
         </div>
       </div>
       <h1 className='text-center font-black text-4xl p-2 sm:text-7xl mt-5 text-light animate__animated animate__backInDown'>
@@ -22,7 +28,7 @@ export default function Home() {
         <div className='flex flex-col items-center gap-4 text-center col-span-2 animate__animated animate__backInRight row-span-2'>
           <h1 className='text-light text-xl sm:text-3xl'>Hi I am,</h1>
           <h1 className='text-light text-2xl sm:text-5xl'>
-            Ajay Daniel Trevor{' '}
+            Ajay Daniel Trevor
           </h1>
           <h1 className='text-light text-lg sm:text-3xl'>
             MERN Stack Developer
@@ -36,24 +42,60 @@ export default function Home() {
         </div>
         <div className='flex sm:flex-col social-icons  sm:col-auto sm:row-span-1 sm:row-start-1 mt-5 col-span-3 sm:col-span-1 justify-self-center sm:justify-self-start gap-3'>
           <h1 className='text-light text-2xl sm:text-5xl animate__animated animate__zoomIn animate__delay-1s'>
-            <i className='bx bxl-linkedin-square '></i>
+            <a
+              href={profileLink.linkedin}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <i className='bx bxl-linkedin-square '></i>
+            </a>
           </h1>
           <h1 className='text-light text-2xl sm:text-5xl animate__animated animate__zoomIn animate__delay-1s'>
-            <i className='bx bxl-facebook-square'></i>
+            <a
+              href={profileLink.facebook}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <i className='bx bxl-facebook-square'></i>
+            </a>
           </h1>
           <h1 className='text-light text-2xl sm:text-5xl animate__animated animate__zoomIn animate__delay-1s'>
-            <i className='bx bxl-twitter'></i>
+            <a
+              href={profileLink.twitter}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <i className='bx bxl-twitter'></i>
+            </a>
           </h1>
         </div>
         <div className='flex sm:flex-col social-icons row-span-1 sm:justify-self-end mt-5 col-span-3 sm:col-span-1 justify-self-center gap-3'>
           <h1 className='text-light text-2xl sm:text-5xl animate__animated animate__zoomIn animate__delay-1s'>
-            <i className='bx bxl-github'></i>
+            <a
+              href={profileLink.github}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <i className='bx bxl-github'></i>
+            </a>
           </h1>
           <h1 className='text-light text-2xl sm:text-5xl animate__animated animate__zoomIn animate__delay-1s'>
-            <i className='bx bxl-instagram'></i>
+            <a
+              href={profileLink.instagram}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <i className='bx bxl-instagram'></i>
+            </a>
           </h1>
           <h1 className='text-light text-2xl sm:text-5xl animate__animated animate__zoomIn animate__delay-1s'>
-            <i className='bx bxl-youtube'></i>
+            <a
+              href={profileLink.youtube}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <i className='bx bxl-youtube'></i>
+            </a>
           </h1>
         </div>
       </div>

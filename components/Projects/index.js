@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <div
       id='projects'
-      className='h_mobile-100 sm:min-h-screen bg-no-repeat bg-cover sm:bg-bottom overflow-hidden'
+      className='h_mobile-100 sm:min-h-screen overflow-hidden'
     >
       <h1
         className='text-center font-black text-4xl p-2 sm:text-7xl mt-5 text-light'
@@ -67,7 +67,7 @@ export default function Projects() {
         technologies={['HTML', 'CSS', 'JavaScript', 'NodeJS']}
         imageLeft
       />
-      <img src='../background/3-crop.png' alt='' width='100%' />
+      <img src='../background/3-crop1.png' alt='' width='100%' />
     </div>
   )
 }
