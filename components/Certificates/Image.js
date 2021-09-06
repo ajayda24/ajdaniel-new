@@ -17,6 +17,7 @@ export default function ImageDiv(props) {
         // className='custom-img'
         placeholder='blur'
         blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(700, 475))}`}
+        priority
       />
     </div>
   )
