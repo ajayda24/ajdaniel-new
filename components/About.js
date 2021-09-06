@@ -20,12 +20,13 @@ export default function About() {
           className='max-w-[15rem] ring-4 rounded-full ring-offset-1 p-1'
           data-aos='fade-left'
         >
-          <div className='flex items-center'>
+          <div className='flex items-center rounded-full'>
             <Image
-              className='rounded-full'
+              className=' '
               src={profilePic}
               alt='Picture of Ajay Daniel Trevor'
               placeholder='blur'
+              priority
             />
           </div>
         </div>
