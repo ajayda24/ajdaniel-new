@@ -3,6 +3,7 @@ import Projects from '../components/Projects'
 import Skills from '../components/Skills'
 import Contact from '../components/Contact'
 import About from '../components/About'
+import Certificates from '../components/Certificates'
 
 export default function Index() {
   
@@ -10,8 +11,9 @@ export default function Index() {
     <>
       <Home />
       <Projects />
-      <Skills />
       <About/>
+      <Skills />
+      <Certificates />
       <Contact />
     </>
   )
