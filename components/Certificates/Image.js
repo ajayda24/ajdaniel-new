@@ -13,8 +13,8 @@ export default function ImageDiv(props) {
         //  src={`data:image/svg+xml;base64,${toBase64(shimmer(700, 475))}`}
         src={props.src}
         alt={props.alt}
-         layout='fill'
-         className='custom-img'
+        // layout='fill'
+        // className='custom-img'
         placeholder='blur'
         blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(700, 475))}`}
       />
