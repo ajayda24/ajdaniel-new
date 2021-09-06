@@ -60,7 +60,7 @@ export default function Contact() {
   return (
     <div
       id='contact'
-      className='h_mobile-100 sm:min-h-screen bg-no-repeat bg-cover sm:bg-bottom overflow-hidden flex flex-col justify-between relative'
+      className='h_mobile-100 sm:min-h-screen  overflow-hidden flex flex-col justify-between relative'
       // style={{ backgroundImage: `url(../background/1.svg)` }}
     >
       <h1
