@@ -1,6 +1,7 @@
 
 import ImageDiv from './Image'
 
+
 export default function Certificates() {
   return (
     <div
@@ -15,25 +16,25 @@ export default function Certificates() {
       </h1>
       <div className='grid lg:grid-cols-3 md:grid-cols-2 place-items-center gap-5 justify-center my-8 px-5'>
         <ImageDiv
-          src='https://ik.imagekit.io/ajayda24/Certificates/NextJS_CmRhOIgPk.jpg?updatedAt=1630924525178'
-          alt='NodeJS Certificate'
+          src='https://ik.imagekit.io/ajayda24/Certificates/NextJS-c_eMC0NZVCg.jpg?updatedAt=1630944685705'
+          alt='NextJS Certificate'
         />
         <ImageDiv
-          src='https://ik.imagekit.io/ajayda24/Certificates/ReactJS_ulXW9Obfp.jpg?updatedAt=1630924527144'
-          alt='NodeJS Certificate'
+          src='https://ik.imagekit.io/ajayda24/Certificates/ReactJS-c_Qehs1SX0Y.jpg?updatedAt=1630944688180'
+          alt='ReactJS Certificate'
         />
         <ImageDiv
-          src='https://ik.imagekit.io/ajayda24/Certificates/crossroads_master_project_page-0001_5v4nUzfhF.jpg?updatedAt=1630924512290'
-          alt='NodeJS Certificate'
+          src='https://ik.imagekit.io/ajayda24/Certificates/crossroads_master_project-c_8huHfapSR.jpg?updatedAt=1630944681414'
+          alt='Crossroads NodeJS Certificate'
           parent='row-span-2'
         />
         <ImageDiv
-          src='https://ik.imagekit.io/ajayda24/Certificates/NodeJS_9nLg9lbVE.jpg?updatedAt=1630924526661'
+          src='https://ik.imagekit.io/ajayda24/Certificates/NodeJS-c_WDWT74oQV.jpg?updatedAt=1630944687158'
           alt='NodeJS Certificate'
         />
         <ImageDiv
-          src='https://ik.imagekit.io/ajayda24/Certificates/Web_development_zKrBoGlxf.jpg?updatedAt=1630935407670'
-          alt='NodeJS Certificate'
+          src='https://ik.imagekit.io/ajayda24/Certificates/Web_development-c_XmGKdjHou.jpg?updatedAt=1630944688204'
+          alt='Web Development Bootcamp Certificate'
         />
       </div>
       <img src='../background/3-crop1.png' alt='' width='100%' />
