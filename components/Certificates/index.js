@@ -1,10 +1,10 @@
 
 import ImageDiv from './Image'
-// import NodeJSCert from '../../public/images/certificates/NodeJS-c.jpg'
-// import NextJSCert from '../../public/images/certificates/NextJS-c.jpg'
-// import ReactJSCert from '../../public/images/certificates/ReactJS-c.jpg'
-// import CrossroadsNodeJSCert from '../../public/images/certificates/crossroads-master-project-c.jpg'
-// import WebDevelopmentCert from '../../public/images/certificates/Web-development-c.jpg'
+import NodeJSCert from '../../public/images/certificates/nodejs-cert.webp'
+import NextJSCert from '../../public/images/certificates/nextjs-cert.webp'
+import ReactJSCert from '../../public/images/certificates/reactjs-cert.webp'
+import CrossroadsNodeJSCert from '../../public/images/certificates/crossroads-nodejs-cert.webp'
+import WebDevelopmentCert from '../../public/images/certificates/webdevelopment-cert.webp'
 
 
 export default function Certificates() {
@@ -20,7 +20,7 @@ export default function Certificates() {
         My Certificates
       </h1>
       <div className='grid lg:grid-cols-3 md:grid-cols-2 place-items-center gap-5 justify-center my-8 px-5'>
-        {/* <ImageDiv src={NextJSCert} alt='NextJS Certificate' />
+        <ImageDiv src={NextJSCert} alt='NextJS Certificate' />
         <ImageDiv src={ReactJSCert} alt='ReactJS Certificate' />
         <ImageDiv
           src={CrossroadsNodeJSCert}
@@ -31,8 +31,8 @@ export default function Certificates() {
         <ImageDiv
           src={WebDevelopmentCert}
           alt='Web Development Bootcamp Certificate'
-        /> */}
-        <ImageDiv
+        />
+        {/* <ImageDiv
           src='https://ik.imagekit.io/ajayda24/Certificates/NextJS-c_eMC0NZVCg.jpg?updatedAt=1630944685705'
           alt='NextJS Certificate'
         />
@@ -52,7 +52,7 @@ export default function Certificates() {
         <ImageDiv
           src='https://ik.imagekit.io/ajayda24/Certificates/Web_development-c_XmGKdjHou.jpg?updatedAt=1630944688204'
           alt='Web Development Bootcamp Certificate'
-        />
+        /> */}
       </div>
       <img src='../background/3-crop1.png' alt='' width='100%' />
     </div>
