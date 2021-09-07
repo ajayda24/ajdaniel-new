@@ -62,7 +62,7 @@ export default function Projects() {
         image='otherprojects'
         description='When I am studying these technologies I made so many simple projects.'
         github='https://github.com/ajayda24/Personal-Website'
-        view='https://ajdaniel.gq/#projects'
+        view='https://oldprojects.ajdaniel.gq/#projects'
         features={['Maths Matrix', 'Picture Puzzle', 'Sharpen your Eyes']}
         technologies={['HTML', 'CSS', 'JavaScript', 'NodeJS']}
         imageLeft
