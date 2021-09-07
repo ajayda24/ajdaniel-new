@@ -1,7 +1,9 @@
 
 
 import Image from 'next/image'
-import profilePic from '../public/images/aj/ajay-c.png'
+// import profilePic from '../public/images/aj/ajay-c.png'
+import { toBase64, shimmer } from './Utils/ImageBlur'
+
 export default function About() {
   return (
     <div
@@ -23,10 +25,17 @@ export default function About() {
           <div className='flex items-center rounded-full'>
             <Image
               className=' '
-              src={profilePic}
+              src='https://ik.imagekit.io/ajayda24/ajay-c_g-5i9S0wW.png'
               alt='Picture of Ajay Daniel Trevor'
+              // layout='fill'
+              // className='custom-img'
+              width={230}
+              height={230}
               placeholder='blur'
               priority
+              blurDataURL={`data:image/svg+xml;base64,${toBase64(
+                shimmer(700, 475)
+              )}`}
             />
           </div>
         </div>
