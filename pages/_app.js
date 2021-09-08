@@ -56,7 +56,7 @@ function MyApp({ Component, pageProps }) {
         <link rel='shortcut icon' href='/favicon1.ico' />
 
         <meta name='twitter:card' content='summary' />
-        <meta name='twitter:url' content='https://ajdaniel.vercel.app' />
+        <meta name='twitter:url' content='https://ajdaniel.gq' />
         <meta name='twitter:title' content='Ajay Daniel Trevor' />
         <meta
           name='twitter:description'
@@ -64,7 +64,7 @@ function MyApp({ Component, pageProps }) {
         />
         <meta
           name='twitter:image'
-          content='https://ajdaniel.vercel.app/logo1.png'
+          content='https://ajdaniel.gq/logo1.png'
         />
         <meta name='twitter:creator' content='@ajayda24' />
         <meta property='og:type' content='website' />
@@ -74,10 +74,10 @@ function MyApp({ Component, pageProps }) {
           content='I am a MERN Stack Developer. I have done so many projects with amazing web technologies such as Node.js, Next.js, React.js, MongoDB etc.'
         />
         <meta property='og:site_name' content='Ajay Daniel Trevor' />
-        <meta property='og:url' content='https://ajdaniel.vercel.app' />
+        <meta property='og:url' content='https://ajdaniel.gq' />
         <meta
           property='og:image'
-          content='https://ajdaniel.vercel.app/logo1.png'
+          content='https://ajdaniel.gq/logo1.png'
         />
       </Head>
       <Script
