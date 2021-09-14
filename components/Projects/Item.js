@@ -9,7 +9,7 @@ export default function ProjectItem(props) {
       >
         <img
           className='h-96'
-          src={`../images/projects/${props.image}.png`}
+          src={`../images/projects/${props.image}.webp`}
           alt={props.title}
         />
       </div>

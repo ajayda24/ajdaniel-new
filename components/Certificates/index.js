@@ -33,24 +33,24 @@ export default function Certificates() {
           alt='Web Development Bootcamp Certificate'
         />
         {/* <ImageDiv
-          src='https://ik.imagekit.io/ajayda24/Certificates/NextJS-c_eMC0NZVCg.jpg?updatedAt=1630944685705'
+          src='https://ik.imagekit.io/ajayda24/Certificates/nextjs-cert_9wkUB3UTt.webp?updatedAt=1631619460115'
           alt='NextJS Certificate'
         />
         <ImageDiv
-          src='https://ik.imagekit.io/ajayda24/Certificates/ReactJS-c_Qehs1SX0Y.jpg?updatedAt=1630944688180'
+          src='https://ik.imagekit.io/ajayda24/Certificates/reactjs-cert_mGwNjyyAgd.webp?updatedAt=1631619462315'
           alt='ReactJS Certificate'
         />
         <ImageDiv
-          src='https://ik.imagekit.io/ajayda24/Certificates/crossroads_master_project-c_8huHfapSR.jpg?updatedAt=1630944681414'
+          src='https://ik.imagekit.io/ajayda24/Certificates/crossroads-nodejs-cert_RspcAXsbbY.webp?updatedAt=1631619457115'
           alt='Crossroads NodeJS Certificate'
           parent='row-span-2'
         />
         <ImageDiv
-          src='https://ik.imagekit.io/ajayda24/Certificates/NodeJS-c_WDWT74oQV.jpg?updatedAt=1630944687158'
+          src='https://ik.imagekit.io/ajayda24/Certificates/nodejs-cert_8b00HE3pq.webp?updatedAt=1631619461315'
           alt='NodeJS Certificate'
         />
         <ImageDiv
-          src='https://ik.imagekit.io/ajayda24/Certificates/Web_development-c_XmGKdjHou.jpg?updatedAt=1630944688204'
+          src='https://ik.imagekit.io/ajayda24/Certificates/webdevelopment-cert_wncqMjEiB.webp?updatedAt=1631619462527'
           alt='Web Development Bootcamp Certificate'
         /> */}
       </div>

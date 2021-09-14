@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import profilePic from '../public/images/aj/ajay.webp'
-import { toBase64, shimmer } from './Utils/ImageBlur'
+// import { toBase64, shimmer } from './Utils/ImageBlur'
 
 export default function About() {
   return (
@@ -33,7 +33,7 @@ export default function About() {
               // width={230}
               // height={230}
               // placeholder='blur'
-              // priority
+              priority
               // blurDataURL={`data:image/svg+xml;base64,${toBase64(
               //   shimmer(700, 475)
               // )}`}

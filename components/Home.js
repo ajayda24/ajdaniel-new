@@ -23,7 +23,7 @@ export default function Home() {
       </h1>
       <div className='grid grid-cols-3 grid-rows-2 sm:grid-rows-none sm:grid-cols-5 mx-auto max-w-4xl  items-center py-10 sm:py-12 px-2'>
         <div className='justify-self-center col-span-1 animate__animated animate__backInLeft row-span-2'>
-          <img src='../images/aj/1.png' alt='aj.png' width='160' />
+          <img src='../images/aj/1.webp' alt='aj.webp' width='160' />
         </div>
         <div className='flex flex-col items-center gap-4 text-center col-span-2 animate__animated animate__backInRight row-span-2'>
           <h1 className='text-light text-xl sm:text-3xl'>Hi I am,</h1>

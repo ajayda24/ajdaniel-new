@@ -40,7 +40,7 @@ function MyApp({ Component, pageProps }) {
         <meta name='apple-mobile-web-app-title' content='Ajay Daniel Trevor' />
         <meta
           name='description'
-          content='I am a MERN Stack Developer. I have done so many projects with amazing web technologies such as Node.js, Next.js, React.js, MongoDB etc.'
+          content='I am a MERN Stack Developer. I have done so many projects with amazing web technologies such as Node.js, Next.js, React.js, MongoDB etc.  Hire me as a web developer.'
         />
         <meta name='format-detection' content='telephone=no' />
         <meta name='mobile-web-app-capable' content='yes' />
@@ -60,25 +60,19 @@ function MyApp({ Component, pageProps }) {
         <meta name='twitter:title' content='Ajay Daniel Trevor' />
         <meta
           name='twitter:description'
-          content='I am a MERN Stack Developer. I have done so many projects with amazing web technologies such as Node.js, Next.js, React.js, MongoDB etc.'
+          content='I am a MERN Stack Developer. I have done so many projects with amazing web technologies such as Node.js, Next.js, React.js, MongoDB etc. Hire me as a web developer.'
         />
-        <meta
-          name='twitter:image'
-          content='https://ajdaniel.gq/logo1.png'
-        />
+        <meta name='twitter:image' content='https://ajdaniel.gq/logo1.png' />
         <meta name='twitter:creator' content='@ajayda24' />
         <meta property='og:type' content='website' />
         <meta property='og:title' content='Ajay Daniel Trevor' />
         <meta
           property='og:description'
-          content='I am a MERN Stack Developer. I have done so many projects with amazing web technologies such as Node.js, Next.js, React.js, MongoDB etc.'
+          content='I am a MERN Stack Developer. I have done so many projects with amazing web technologies such as Node.js, Next.js, React.js, MongoDB etc. Hire me as a web developer.'
         />
         <meta property='og:site_name' content='Ajay Daniel Trevor' />
         <meta property='og:url' content='https://ajdaniel.gq' />
-        <meta
-          property='og:image'
-          content='https://ajdaniel.gq/logo1.png'
-        />
+        <meta property='og:image' content='https://ajdaniel.gq/logo1.png' />
       </Head>
       <Script
         dangerouslySetInnerHTML={{

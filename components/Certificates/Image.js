@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import {toBase64,shimmer} from '../Utils/ImageBlur'
+// import {toBase64,shimmer} from '../Utils/ImageBlur'
 
 
 export default function ImageDiv(props) {
@@ -18,7 +18,7 @@ export default function ImageDiv(props) {
         placeholder='blur'
         // blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(700, 475))}`}
         // blurDataURL=''
-        // priority
+        priority
       />
     </div>
   )
