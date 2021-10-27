@@ -2,7 +2,6 @@
 
 import Image from 'next/image'
 import profilePic from '../public/images/aj/ajay.webp'
-// import { toBase64, shimmer } from './Utils/ImageBlur'
 
 export default function About() {
   return (
