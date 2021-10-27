@@ -5,6 +5,7 @@ import NextJSCert from '../../public/images/certificates/nextjs-cert.webp'
 import ReactJSCert from '../../public/images/certificates/reactjs-cert.webp'
 import CrossroadsNodeJSCert from '../../public/images/certificates/crossroads-nodejs-cert.webp'
 import WebDevelopmentCert from '../../public/images/certificates/webdevelopment-cert.webp'
+import GCICert from '../../public/images/certificates/gci.webp'
 
 
 export default function Certificates() {
@@ -31,6 +32,10 @@ export default function Certificates() {
         <ImageDiv
           src={WebDevelopmentCert}
           alt='Web Development Bootcamp Certificate'
+        />
+        <ImageDiv
+          src={GCICert}
+          alt='Google Code-in Certificate'
         />
         {/* <ImageDiv
           src='https://ik.imagekit.io/ajayda24/Certificates/nextjs-cert_9wkUB3UTt.webp?updatedAt=1631619460115'
