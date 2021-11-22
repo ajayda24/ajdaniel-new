@@ -1,4 +1,3 @@
-
 import ImageDiv from './Image'
 import NodeJSCert from '../../public/images/certificates/nodejs-cert.webp'
 import NextJSCert from '../../public/images/certificates/nextjs-cert.webp'
@@ -6,7 +5,7 @@ import ReactJSCert from '../../public/images/certificates/reactjs-cert.webp'
 import CrossroadsNodeJSCert from '../../public/images/certificates/crossroads-nodejs-cert.webp'
 import WebDevelopmentCert from '../../public/images/certificates/webdevelopment-cert.webp'
 import GCICert from '../../public/images/certificates/gci.webp'
-
+import MongoDBCert from '../../public/images/certificates/mongodb-cert.webp'
 
 export default function Certificates() {
   return (
@@ -21,6 +20,7 @@ export default function Certificates() {
         My Certificates
       </h1>
       <div className='grid lg:grid-cols-3 md:grid-cols-2 place-items-center gap-5 justify-center my-8 px-5'>
+        <ImageDiv src={MongoDBCert} alt='MongoDB Certificate' />
         <ImageDiv src={NextJSCert} alt='NextJS Certificate' />
         <ImageDiv src={ReactJSCert} alt='ReactJS Certificate' />
         <ImageDiv
@@ -33,10 +33,7 @@ export default function Certificates() {
           src={WebDevelopmentCert}
           alt='Web Development Bootcamp Certificate'
         />
-        <ImageDiv
-          src={GCICert}
-          alt='Google Code-in Certificate'
-        />
+        <ImageDiv src={GCICert} alt='Google Code-in Certificate' />
         {/* <ImageDiv
           src='https://ik.imagekit.io/ajayda24/Certificates/nextjs-cert_9wkUB3UTt.webp?updatedAt=1631619460115'
           alt='NextJS Certificate'
