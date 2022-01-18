@@ -74,6 +74,14 @@ function MyApp({ Component, pageProps }) {
         <meta property='og:site_name' content='Ajay Daniel Trevor' />
         <meta property='og:url' content='https://ajdaniel.gq' />
         <meta property='og:image' content='https://ajdaniel.gq/logo1.png' />
+<meta name="description" content="MERN Stack Web Developer from Kerala. I have done so many projects with amazing web technologies such as Node.js, Next.js, React.js, MongoDB etc. Hire me as a web developer.">
+  <meta name="keywords" content="Ajay,Ajay Daniel,Ajay Daniel Trevor,Web Developer,MERN Stack developer, MERN Stack">
+  <meta name="author" content="Ajay Daniel Trevor">
+<meta name="google-site-verification" content="ikUPmCMMt_7dMC-wq_2KzN4ifcNOvby0tbEvfTn1oj8="/>
+<meta name=”robots” content="index, follow">
+<meta name="googlebot" content="index, follow" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
       </Head>
       <Script
         dangerouslySetInnerHTML={{
