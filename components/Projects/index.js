@@ -17,7 +17,7 @@ export default function Projects() {
         image='classathome1'
         description='Manage your time, make studies more advanced. Easy to Access, Easy to Manage your teachers and students.'
         github='https://github.com/ajayda24/nodejs-master-completed'
-        view='https://classathome.gq/'
+        view='https://classathome.ajdaniel.gq/'
         features={['Assignments', 'Chat', 'Video Call', 'Paid Events']}
         technologies={['NodeJS', 'ExpressJS', 'MongoDB', 'SocketIO']}
         imageLeft
