@@ -17,7 +17,7 @@ export default function Projects() {
         image='classathome1'
         description='Manage your time, make studies more advanced. Easy to Access, Easy to Manage your teachers and students.'
         github='https://github.com/ajayda24/nodejs-master-completed'
-        view='https://classathome.ajaydaniel.gq/'
+        view='https://classathome.glitch.me/'
         features={['Assignments', 'Chat', 'Video Call', 'Paid Events']}
         technologies={['NodeJS', 'ExpressJS', 'MongoDB', 'SocketIO']}
         imageLeft
@@ -27,7 +27,7 @@ export default function Projects() {
         image='chainreaction'
         description='Play Chain Reaction Online with your Friends. Developed by me and my classmate Thejus Manoj.'
         github='https://github.com/ajayda24/emojireaction'
-        view='https://emojireaction.ajaydaniel.gq/'
+        view='https://emojireaction.glitch.me/'
         features={['Play Online', 'Multiplayer', 'Fun with Friends', 'Chat']}
         technologies={['NodeJS', 'SocketIO', 'HTML', 'CSS']}
       />
