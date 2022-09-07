@@ -57,13 +57,13 @@ function MyApp({ Component, pageProps }) {
         <link rel='shortcut icon' href='/favicon1.ico' />
 
         <meta name='twitter:card' content='summary' />
-        <meta name='twitter:url' content='https://ajdaniel.gq' />
+        <meta name='twitter:url' content='https://ajaydaniel.gq' />
         <meta name='twitter:title' content='Ajay Daniel Trevor' />
         <meta
           name='twitter:description'
           content='I am a MERN Stack Developer. I have done so many projects with amazing web technologies such as Node.js, Next.js, React.js, MongoDB etc. Hire me as a web developer.'
         />
-        <meta name='twitter:image' content='https://ajdaniel.gq/logo1.png' />
+        <meta name='twitter:image' content='https://ajaydaniel.gq/logo1.png' />
         <meta name='twitter:creator' content='@ajayda24' />
         <meta property='og:type' content='website' />
         <meta property='og:title' content='Ajay Daniel Trevor' />
@@ -72,8 +72,8 @@ function MyApp({ Component, pageProps }) {
           content='I am a MERN Stack Developer. I have done so many projects with amazing web technologies such as Node.js, Next.js, React.js, MongoDB etc. Hire me as a web developer.'
         />
         <meta property='og:site_name' content='Ajay Daniel Trevor' />
-        <meta property='og:url' content='https://ajdaniel.gq' />
-        <meta property='og:image' content='https://ajdaniel.gq/logo1.png' />
+        <meta property='og:url' content='https://ajaydaniel.gq' />
+        <meta property='og:image' content='https://ajaydaniel.gq/logo1.png' />
 <meta name="description" content="MERN Stack Web Developer from Kerala. I have done so many projects with amazing web technologies such as Node.js, Next.js, React.js, MongoDB etc. Hire me as a web developer." />
   <meta name="keywords" content="Ajay,Ajay Daniel,Ajay Daniel Trevor,Web Developer,MERN Stack developer, MERN Stack" />
   <meta name="author" content="Ajay Daniel Trevor" />
